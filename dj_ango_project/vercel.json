@@ -10,7 +10,7 @@
       }
     },
     {
-      "src": "build_files.sh",
+      "src": "static_build.sh",
       "use": "@vercel/static-build",
       "config": {
         "distDir": "staticfiles_build"
@@ -22,9 +22,9 @@
       "src": "/static/(.*)",
       "dest": "/static/$1"
     },
-        {
-            "src": "/(.*)",
-            "dest": "dj_ango_app/wsgi.py"
-        }
-    ]
+    {
+      "src": "/(.*)",
+      "dest": "/wsgi.py"
+    }
+  ]
 }
