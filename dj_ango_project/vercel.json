@@ -24,7 +24,7 @@
     },
     {
       "src": "/(.*)",
-      "dest": "/wsgi.py"
+      "dest": "dj_ango_project/wsgi.py"
     }
   ]
 }
