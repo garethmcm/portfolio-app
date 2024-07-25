@@ -11,13 +11,13 @@
   margin-right: 1.5rem;
 }
 .social-icons .social-icon:last-child {
-  margin-right: 10px;
+  margin-right: 0;
 }
 .social-icons .social-icon:hover {
   background-color: #bd5d38;
 }
 
-.soundo-icon {
+.soundo {
     width: 52px;
     height: 52px;
 }
