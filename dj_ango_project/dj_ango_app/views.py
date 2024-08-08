@@ -5,3 +5,8 @@ def index(request):
     context = {}
 
     return render(request, 'index.html', context=context)
+
+def audio_index(request):
+    context = {}
+
+    return render(request, 'audio_index.html', context=context)

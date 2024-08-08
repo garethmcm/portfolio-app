@@ -5,4 +5,5 @@ app_name = 'dj_ango_app'
 
 urlpatterns = [
 	path('', views.index, name='index'),
+	path('audio', views.audio_index, name='audio_index'),
 ]

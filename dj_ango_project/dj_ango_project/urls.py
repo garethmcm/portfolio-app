@@ -25,6 +25,7 @@ urlpatterns = [
     path('', views.index, name='index'),
     path('dj_ango_app/', include('dj_ango_app.urls')),
     # path("admin/", admin.site.urls),
+    path('audio', views.audio_index, name='audio_index'),
 ]
 
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
